@@ -1,0 +1,16 @@
+{
+  "name": "walktogether-backend",
+  "version": "1.0.0",
+  "description": "WalkTogether minimal backend for local beta testing — 100% free, safety-first",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1"
+  }
+}
